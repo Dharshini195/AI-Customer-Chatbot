@@ -1,0 +1,18 @@
+site_name: AI Customer Support Agent
+site_description: Documentation for AI-powered customer support system
+site_author: Your Name
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Agent Logic: agent.md
+  - Tools: tools.md
+  - API: api.md
+  - Next Steps: next_steps.md
