@@ -3,3 +3,4 @@ chat.db
 __pycache__/
 .vscode/
 db/
+site/

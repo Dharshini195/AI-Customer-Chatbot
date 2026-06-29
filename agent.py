@@ -3,7 +3,7 @@ from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, AIMessage, ToolMessage, SystemMessage
 from langchain_core.output_parsers import StrOutputParser
-from langchain.tools import tool
+from langchain.tools import tool 
 from langchain.agents import create_agent
 from pydantic import BaseModel
 from rag import retreiever_rag
